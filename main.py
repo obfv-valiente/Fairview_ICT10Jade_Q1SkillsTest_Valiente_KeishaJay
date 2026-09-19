@@ -4,9 +4,9 @@ subtotal = (float(prod1.value) * prod1.checked + float (prod2.value) * prod2.che
 
 
 display(f"Subtotal:{Subtotal}.", target="output1")
-display(f"Tax:{tax}.",target="output1",append=True)
-display(f"Total{total}.", target="output1", append=True)
-display("Thank you for your order", target="output1", append= True)
+display(f"Tax:{tax}.",target="output2",append=True)
+display(f"Total{total}.", target="output3", append=True)
+display("Thank you for your order", target="output4", append= True)
 
 
 
